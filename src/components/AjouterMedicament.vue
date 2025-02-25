@@ -32,8 +32,8 @@
 import { reactive } from "vue";
 import Listemedicaments from "./Listemedicaments.vue";
 
-//création d'un objet réactif qui stocke les informations 
-//d'un nouveau médicament 
+//création d'un objet réactif qui stocke les informations
+//d'un nouveau médicament
 
 const nouveauMedicament = reactive({
   denomination: "",
@@ -49,12 +49,12 @@ const handleFileUpload = (event) => {
 
   const reader = new FileReader();
   reader.onload = () => {
-    nouveauMedicament.photo = reader.result; 
+    nouveauMedicament.photo = reader.result;
   };
   reader.readAsDataURL(file);
 };
 
-//fonction qui ajoute mon medicament 
+//fonction qui ajoute mon medicament
 function ajouterMedicament () {
   const url = "https://apipharmacie.pecatte.fr/api/1/medicaments";
   let fetchOptions = {

@@ -140,6 +140,7 @@ function ajouter1(med) {
 
 /**
  * Fonction qui diminue la quantité du médicament.
+ *
  */
 function retirer1(id) {
   const med = ListeMedicaments.find(m => m.id === id);

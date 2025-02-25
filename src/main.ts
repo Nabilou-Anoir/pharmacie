@@ -1,7 +1,7 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 
-// Import du routeur (assurez-vous que ce fichier est bien en TypeScript)
+// Import du routeur
 import router from "./router";
 
 import "vuetify/styles";
@@ -15,5 +15,4 @@ const vuetify = createVuetify({
   directives,
 });
 
-// Création et montage de l'app Vue
 createApp(App).use(router).use(vuetify).mount("#app");
