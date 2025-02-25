@@ -1,4 +1,4 @@
-<template>
+ <template>
   <v-app>
     <!-- Votre barre de navigation (TopBar) -->
     <TopBar />

@@ -21,7 +21,7 @@ import RechercheMedicament from "@/components/RechercheMedicament.vue";
 <style scoped>
 h2 {
   font-weight: 50%;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   font-family: "Arial";
   color: rgb(196, 196, 196);
