@@ -69,9 +69,11 @@ function ajouterMedicament () {
     .then((response) => response.json())
     .then((dataJSON) => {
       console.log(dataJSON);
+      alert("Votre médicament à été ajouté avec succès.");
     })
     .catch((error) => {
       console.log(error);
+      alert("Une erreur est survenue lors de l'ajout du médicament.");
     });
 };
 
