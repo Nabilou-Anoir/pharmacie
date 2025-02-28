@@ -14,5 +14,5 @@
 import TopBar from "./components/Topbar.vue";
 </script>
 
-<style scoped>
+<style>
 </style>

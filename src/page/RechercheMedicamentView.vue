@@ -9,6 +9,7 @@
     <v-row justify="center">
       <v-col cols="12" md="8" class="text-center">
         <RechercheMedicament />
+
       </v-col>
     </v-row>
   </v-container>
@@ -33,4 +34,5 @@ h2 {
   min-height: 100vh;
   background-position: bottom right;
 }
+
 </style>
