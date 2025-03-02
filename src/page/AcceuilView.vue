@@ -38,7 +38,7 @@ h1 {
   color: green;
 }
 
-/* Animation d'apparition lettre par lettre */
+/* Animation d'apparition lettre par lettres */
 @keyframes fadeInUp {
   from {
     opacity: 0;
