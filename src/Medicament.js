@@ -7,7 +7,6 @@ export class Medicament {
     this._photo = photo;
   }
 
-  // ---- Getters
   get qte() {
     return this._qte;
   }
@@ -21,7 +20,6 @@ export class Medicament {
     return this._photo;
   }
 
-  // ---- Setters
   set qte(value) {
     this._qte = value;
   }
